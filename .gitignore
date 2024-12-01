@@ -1,1 +1,4 @@
 inputs/
+
+rust/Cargo.lock
+rust/target/
