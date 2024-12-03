@@ -1,3 +1,4 @@
+#[cfg(feature = "day02")]
 pub mod day02 {
     use std::fs::File;
     use std::io::read_to_string;
@@ -83,6 +84,7 @@ pub mod day02 {
 }
 
 #[cfg(test)]
+#[cfg(feature = "day02")]
 pub mod tests {
     use std::path::Path;
     use super::day02;

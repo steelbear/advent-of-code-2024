@@ -1,3 +1,4 @@
+#[cfg(feature = "day01")]
 pub mod day01 {
     use std::collections::HashMap;
     use std::fs::File;
@@ -76,6 +77,7 @@ pub mod day01 {
 }
 
 #[cfg(test)]
+#[cfg(feature = "day01")]
 pub mod tests {
     use std::path::Path;
     use super::day01;
