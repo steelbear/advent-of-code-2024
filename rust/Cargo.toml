@@ -9,3 +9,4 @@ day02 = []
 day03 = []
 
 [dependencies]
+regex = "1.11.1"
